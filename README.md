@@ -11,8 +11,10 @@ An experimental AST-based semantic code editor for python
 - Not needed for programming where only a small subset is a syntactically valid program
 - "With great power comes great responsibility"
 - Bad Examples:
-  - f-String and print statement
+  - simple syntax error
+  - f-String and print statement (py2/3 incompatibility)
   - Deleting one element from two element tuple and also removing the comma (resulting in int instead of tuple)
+  - Swapping operands: `a%3 * b/5` vs. `b/5 * a%3`
   - Style guide violation
   - Tabs vs. spaces
 - "Do we really need all that power?"
@@ -28,16 +30,47 @@ An experimental AST-based semantic code editor for python
 
 ### Structure editors
 
+---TODO
+
+- Related Projects
 
 # Features
 
-- Automatic formatting
+## Viewing
+
+- Display AST so that it's easy to understand for humans:
+  - non-monospace fonts are easier to read
+  - Doesn't need to have unambiguous syntax
   - always conforming to style guide
   - Automatic parenthesis
   - Reformat on resize
   - easy syntax highlighting
   - user preferences (e.g. amount of indentation, display mode of individual numbers)
+
+## Editing
+
 - No syntax errors
-- Semantic actions (e.g. "create function")
+- Semantic navigation
+- Semantic actions (e.g. "create function" instead of typing character by character)
+- choice of actions limited to those that yield a valid program.
 - Context-aware options (e.g. "return" only valid in function)
 - deactivate nodes 
+
+# Demo 
+
+- This is an experiment
+- Do not use for real code
+- only covers a small subset of the python syntax
+
+## Features to show
+
+- assignment
+- binop
+- functiondef (simplified)
+- list
+- import?
+- return
+
+# Discussion
+
+- 
