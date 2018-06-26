@@ -1,6 +1,6 @@
 # empty <stmt>
 
-- Assert
+- `f` Assert
 - Break (if in loop)
 - Class
 - Continue (if in loop)
@@ -20,7 +20,7 @@
 
 # empty <expr>
 
-- Await
+- Await (if in async?)
 - Bytes
 - Dict (DictComp)
 - Ellipsis
