@@ -1,37 +1,33 @@
 # Statement actions
 
-## Create
-
-- Assert
-- Assign (Assign, AugAssign, AnnAssign)
-- Break
-- Class
-- Continue
-- Delete
+- A Assert
+* a Assign (Assign, AugAssign, AnnAssign)
+- b Break
+- C Class
+- c Continue
+- d Delete
 - 'Expr'
-- For (Async)
-- Function (Async)
-- Global
-- If
-- Import (From)
-- Nonlocal
-- Pass
-- Raise
-- Return
-- Try
-- While
-- With (Async)
+- f For (Async)
+- F Function (Async)
+- g Global
+- i If
+- I Import (From)
+- n Nonlocal
+- p Pass
+- r Raise
+- R Return
+- t Try
+- w While
+- W With (Async)
 -- 19
 
-# Expression Actions
-
-- Attribute
+* . Attribute
 - Await
-- BoolOp
-- BinOp (includes BoolOp?)
+* BoolOp
+* BinOp (includes BoolOp?)
 - Bytes
-- Call
-- Compare
+* Call
+* Compare
 - Dict (DictComp)
 - Ellipsis
 - IfExp
@@ -41,11 +37,11 @@
 - NameConstant (True, Talse, None)
 - Num
 - Set (SetComp)
-- Starred
+* Starred
 - Str (JoinedStr, FormattedValue)
-- Subscript
+* Subscript
 - Tuple (GeneratorExp)
-- UnaryOp
+* UnaryOp
 - Yield (From)
 -- 23
 
