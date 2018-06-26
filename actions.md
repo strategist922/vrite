@@ -1,22 +1,22 @@
 # empty <stmt>
 
-- Assert Stmt
-- Break Stmt (if in loop)
-- Class Stmt
-- Continue Stmt (if in loop)
-- Delete Stmt
-- For Stmt (Async)
-- Function Stmt (Async)
-- Global Stmt
-- If Stmt
-- Import Stmt (From)
-- Nonlocal Stmt (if in function)
-- Pass Stmt
-- Raise Stmt
-- Return Stmt (if in function)
-- Try Stmt
-- While Stmt
-- With Stmt (Async)
+- Assert
+- Break (if in loop)
+- Class
+- Continue (if in loop)
+- Delete
+- For (Async)
+- Function (Async)
+- Global
+- If
+- Import (From)
+- Nonlocal (if in function)
+- Pass
+- Raise
+- Return (if in function)
+- Try
+- While
+- With (Async)
 
 # empty <expr>
 
