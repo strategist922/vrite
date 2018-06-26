@@ -1,48 +1,48 @@
 # empty <stmt>
 
-- `f` Assert
-- Break (if in loop)
-- Class
-- Continue (if in loop)
-- Delete
-- For (Async)
-- Function (Async)
-- Global
-- If
-- Import (From)
-- Nonlocal (if in function)
-- Pass
-- Raise
-- Return (if in function)
-- Try
-- While
-- With (Async)
+- `!` Assert
+- `x` Break (if in loop)
+- `c` Class
+- `C` Continue (if in loop)
+- `D` Delete
+- `f` For (Async)
+- `d` Function (Async)
+- `g` Global
+- `i` If
+- `I` Import (From)
+- `n` Nonlocal (if in function)
+- `p` Pass
+- `R` Raise
+- `r` Return (if in function)
+- `t` Try
+- `w` While
+- `W` With (Async)
 
 # empty <expr>
 
-- Await (if in async?)
-- Bytes
-- Dict (DictComp)
-- Ellipsis
-- IfExp
-- Lambda
-- List (ListComp)
-- Name
-- NameConstant (True, False, None)
-- Num
-- Set (SetComp)
-- Starred ?
-- Str (JoinedStr, FormattedValue)
-- Tuple (GeneratorExp)
-- UnaryOp ?
-- Yield (From)
+- `a` Await (if in async?)
+- `b` Bytes
+- `{` Dict (DictComp)
+- `.` Ellipsis
+- `?` IfExp
+- `l` Lambda
+- `[` List (ListComp)
+- `⏎` Name
+- `TFN` NameConstant (True, False, None)
+- `0-9` Num
+- `` Set (SetComp)
+- `` Starred ?
+- `` Str (JoinedStr, FormattedValue)
+- `(` Tuple (GeneratorExp)
+- `` UnaryOp ?
+- `` Yield (From)
 
 # selected <expr>
 
-- Assign (AugAssign, AnnAssign)
-- Attribute
-- BoolOp
-- BinOp
-- Call
-- Compare
-- Subscript
+- `` Assign (AugAssign, AnnAssign)
+- `` Attribute
+- `` BoolOp
+- `` BinOp
+- `` Call
+- `` Compare
+- `` Subscript
