@@ -6,43 +6,43 @@
 - `C` Continue (if in loop)
 - `D` Delete
 - `f` For (Async)
-- `d` Function (Async)
+- **`d` Function (Async)**
 - `g` Global
 - `i` If
 - `I` Import (From)
 - `n` Nonlocal (if in function)
 - `p` Pass
 - `R` Raise
-- `r` Return (if in function)
+- **`r` Return (if in function)**
 - `t` Try
 - `w` While
 - `W` With (Async)
 
 # empty <expr>
 
-- `a` Await (if in async?)
+- `A` Await (if in async?)
 - `b` Bytes
 - `{` Dict (DictComp)
 - `.` Ellipsis
 - `?` IfExp
 - `l` Lambda
-- `[` List (ListComp)
-- `⏎` Name
+- **`[` List (ListComp)**
+- **`s` Name**
 - `TFN` NameConstant (True, False, None)
-- `0-9` Num
-- `` Set (SetComp)
-- `` Starred ?
-- `` Str (JoinedStr, FormattedValue)
+- **`n` Num**
+- `s` Set (SetComp)
+- `S` Starred ?
+- `"` Str (JoinedStr, FormattedValue)
 - `(` Tuple (GeneratorExp)
 - `` UnaryOp ?
-- `` Yield (From)
+- `y` Yield (From)
 
 # selected <expr>
 
-- `` Assign (AugAssign, AnnAssign)
+- **`a` Assign (AugAssign, AnnAssign)**
 - `` Attribute
 - `` BoolOp
-- `` BinOp
+- **`+` BinOp**
 - `` Call
 - `` Compare
 - `` Subscript
